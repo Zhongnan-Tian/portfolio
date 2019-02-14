@@ -1,0 +1,141 @@
+$primary: #3292a6;
+$primary-overlay: rgba(50, 146, 166, 0.6);
+
+body {
+  margin-top: 92px;
+}
+
+.navbar {
+  box-shadow: 2px 2px 5px $primary;
+  background: #fff;
+  opacity: 0.9;
+
+  .nav-item {
+    font-size: 1.4rem;
+    padding-right: 1.4rem;
+  }
+
+  .fas {
+    color: $primary;
+  }
+}
+
+#showcase {
+  position: relative;
+  background: url(../img/mountain.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  min-height: 420px;
+
+  .primary-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: $primary-overlay;
+  }
+}
+
+#box .card {
+  height: 190px;
+}
+
+#about-section #about-img1 {
+  width: 300px;
+  height: 300px;
+}
+
+#skill-content img {
+  // width: 120px;
+  // height: 120px;
+  height: auto;
+  width: auto;
+  max-width: 120px;
+  max-height: 120px;
+}
+
+#experience-section {
+  position: relative;
+  background: url('../img/media.jpg');
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  /* background-position: 0 -300px; */
+  min-height: 500px;
+  text-align: center;
+  color: #fff;
+
+  .dark-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.4);
+  }
+
+  #infosys {
+    height: auto;
+    width: auto;
+    max-width: 100px;
+    max-height: 100px;
+  }
+
+  .card-header {
+    color: #3781c2;
+  }
+}
+
+.btn-circle {
+  width: 50px;
+  height: 50px;
+  padding: 10px 16px;
+  font-size: 18px;
+  line-height: 1.33;
+  border-radius: 25px;
+}
+
+#project-section {
+  .card-body:hover {
+    background: $primary;
+    color: #fff;
+  }
+}
+
+// #skill-content {
+//   .progress {
+//     height: 30px;
+//   }
+
+//   .bigger {
+//     font-size: 20px;
+//   }
+
+//   .bg-lightblue {
+//     background: #95cad8;
+//   }
+// }
+
+// < medium screen
+@media (max-width: 767px) {
+  #showcase {
+    min-height: 350px;
+
+    h1 {
+      font-size: 3rem;
+    }
+
+    h5 {
+      font-size: 1.5rem;
+    }
+  }
+
+  #box .card {
+    height: 130px;
+  }
+
+  #experience-section {
+    min-height: 600px;
+  }
+}

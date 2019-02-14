@@ -1,0 +1,581 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.7.1/css/all.css"
+      integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Bootstrap Theme - Bookface</title>
+  </head>
+
+  <body id="home" data-spy="scroll" data-target="#main-nav">
+    <!-- nav bar -->
+    <nav
+      id="main-nav"
+      class="navbar fixed-top navbar-expand-md navbar-light py-4"
+    >
+      <div class="container">
+        <!-- <a href="index.html" class="navbar-brand">
+          <i class="fas fa-smile fa-2x"></i>
+        </a> -->
+        <button
+          class="navbar-toggler"
+          data-toggle="collapse"
+          data-target="#collapseItems"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div id="collapseItems" class="collapse navbar-collapse">
+          <ul class="navbar-nav m-auto">
+            <li class="nav-item">
+              <a href="#about-section" class="nav-link">About</a>
+            </li>
+            <li class="nav-item">
+              <a href="#skill-section" class="nav-link">Skills</a>
+            </li>
+            <li class="nav-item">
+              <a href="#experience-section" class="nav-link">Experience</a>
+            </li>
+            <li class="nav-item">
+              <a href="#project-section" class="nav-link">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a href="#education-section" class="nav-link">Education</a>
+            </li>
+            <li class="nav-item">
+              <a href="#contact-section" class="nav-link">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <header id="showcase" class="py-5">
+      <div class="showcase-inner  text-center text-primary">
+        <div class="container">
+          <div class="row">
+            <div class="col">
+              <h1 class="display-4 mt-5 pt-5 bold">
+                Hello, I'm <strong>Joanna Tian</strong>.
+              </h1>
+              <h5 class="lead display-4 mb-4">
+                I'm a full-stack web developer.
+              </h5>
+              <a href="#project-section" class="btn btn-secondary text-white"
+                >View My Work <i class="fas fa-arrow-right ml-1"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <section id="box" class="p-4 text-center">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-3">
+            <div class="card border-primary text-muted">
+              <div class="card-body">
+                <h2 class="text-primary">Fast</h2>
+                <p>
+                  Fast load times and lag free interaction, my highest priority.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3">
+            <div class="card bg-primary text-white">
+              <div class="card-body">
+                <h2>Responsive</h2>
+                <p>
+                  My layouts will work on any device, big or small.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3">
+            <div class="card border-primary text-muted">
+              <div class="card-body">
+                <h2 class="text-primary">Intuitive</h2>
+                <p>
+                  Strong preference for easy to use, intuitive UX/UI.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3">
+            <div class="card bg-primary text-white">
+              <div class="card-body">
+                <h2>Dynamic</h2>
+                <p>
+                  Websites don't have to be static, I love making pages come to
+                  life..
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- <section id="about-section" class="py-3 bg-primary text-center text-white">
+      <h2>About Me</h2>
+    </section> -->
+
+    <section id="about-section" class="py-4 bg-light text-primary">
+      <div class="container">
+        <div class="row mb-3">
+          <div class="col">
+            <h1 class="text-center">About Me</h1>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-8 order-2 align-self-center">
+            <p class="lead">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos,
+              fuga eaque. Amet, assumenda aliquid tempore dolorum error eveniet
+              doloribus sed repellat quod, dolores fuga ipsam soluta. Aliquam
+              accusantium pariatur aut sint deleniti laborum ducimus voluptatem?
+              Architecto cumque quod suscipit officiis soluta, voluptate dicta
+              blanditiis similique praesentium temporibus adipisci debitis
+              labore!
+            </p>
+          </div>
+          <div class="col-md-4 order-1 mb-3">
+            <img
+              src="https://source.unsplash.com/random/700x700/?technology"
+              alt=""
+              class="img-fluid rounded-circle"
+              id="about-img1"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="skill-section" class="py-3 bg-primary text-center text-white">
+      <h2>Skills</h2>
+    </section>
+
+    <!-- <section id="skill-content" class="py-4">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-7 m-auto">
+            <div class="progress mb-3">
+              <div class="progress-bar bg-success bigger" style="width:80%;">
+                HTML
+              </div>
+            </div>
+            <div class="progress mb-3">
+              <div class="progress-bar bg-lightblue bigger" style="width:70%;">
+                CSS
+              </div>
+            </div>
+            <div class="progress mb-3">
+              <div class="progress-bar bg-info bigger" style="width:90%;">
+                JavaScript
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section> -->
+
+    <section id="skill-content" class="py-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-2 col-md-4 col-sm-6 text-center">
+            <img src="img/html.png" alt="" class="img-fluid mb-2" />
+            <p>HTML5</p>
+          </div>
+          <div class="col-lg-2 col-md-4 col-sm-6 text-center">
+            <img src="img/css3.png" alt="" class="img-fluid mb-2" />
+            <p>CSS3</p>
+          </div>
+          <div class="col-lg-2 col-md-4 col-sm-6 text-center">
+            <img src="img/bootstrap.png" alt="" class="img-fluid mb-2" />
+            <p>Bootstrap</p>
+          </div>
+          <div class="col-lg-2 col-md-4 col-sm-6 text-center">
+            <img src="img/sass.png" alt="" class="img-fluid mb-4" />
+            <p>SASS</p>
+          </div>
+          <div class="col-lg-2 col-md-4 col-sm-6 text-center">
+            <img src="img/javascript.png" alt="" class="img-fluid mb-2" />
+            <p>JavaScript</p>
+          </div>
+          <div class="col-lg-2 col-md-4 col-sm-6 text-center">
+            <img src="img/jquery.png" alt="" class="img-fluid mb-2" />
+            <p>jQuery</p>
+          </div>
+          <div class="col-lg-2 col-md-4 col-sm-6 text-center">
+            <img src="img/react.png" alt="" class="img-fluid mb-2" />
+            <p>React</p>
+          </div>
+          <div class="col-lg-2 col-md-4 col-sm-6 text-center">
+            <img src="img/redux.png" alt="" class="img-fluid mb-2" />
+            <p>Redux</p>
+          </div>
+          <div class="col-lg-2 col-md-4 col-sm-6 text-center">
+            <img src="img/angular.png" alt="" class="img-fluid mb-2" />
+            <p>Angular</p>
+          </div>
+          <div class="col-lg-2 col-md-4 col-sm-6 text-center">
+            <img src="img/nodejs.png" alt="" class="img-fluid mb-2" />
+            <p>Node</p>
+          </div>
+          <div class="col-lg-2 col-md-4 col-sm-6 text-center">
+            <img src="img/java.png" alt="" class="img-fluid mb-2" />
+            <p>Java</p>
+          </div>
+          <div class="col-lg-2 col-md-4 col-sm-6 text-center">
+            <img src="img/mongodb.png" alt="" class="img-fluid mb-2" />
+            <p>MongoDB</p>
+          </div>
+          <div class="col-lg-2 col-md-4 col-sm-6 text-center">
+            <img src="img/webpack.png" alt="" class="img-fluid mb-2" />
+            <p>Webpack</p>
+          </div>
+          <div class="col-lg-2 col-md-4 col-sm-6 text-center">
+            <img src="img/gulp.png" alt="" class="img-fluid mb-2" />
+            <p>Gulp</p>
+          </div>
+          <div class="col-lg-2 col-md-4 col-sm-6 text-center">
+            <img src="img/heroku.png" alt="" class="img-fluid mb-2" />
+            <p>Heroku</p>
+          </div>
+          <div class="col-lg-2 col-md-4 col-sm-6 text-center">
+            <img src="img/AWS.png" alt="" class="img-fluid mb-5" />
+            <p>AWS</p>
+          </div>
+          <div class="col-lg-2 col-md-4 col-sm-6 text-center">
+            <img src="img/github.png" alt="" class="img-fluid mb-2" />
+            <p>GitHub</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- <section
+      id="experience-section"
+      class="py-3 bg-primary text-center text-white"
+    >
+      <h2>Work Experience</h2>
+    </section> -->
+
+    <section id="experience-section" class="py-4 bg-secondary">
+      <div class="dark-overlay">
+        <div class="container">
+          <div class="row mt-5 mb-5">
+            <div class="col">
+              <h1 class="text-center text-white">Work Experience</h1>
+            </div>
+          </div>
+          <div class="row mb-5">
+            <div class="col-md-9 m-auto">
+              <div class="card">
+                <div class="card-header pl-4">
+                  <div class="row">
+                    <div class="col-md-6 col-sm-12">
+                      <img
+                        src="img/infosys.png"
+                        alt=""
+                        class="img-fluid p-2"
+                        id="infosys"
+                      />
+                    </div>
+                    <div
+                      class="col-md-6 col-sm-12 justify-content-end pt-2 pr-0"
+                    >
+                      <h4>Senior Systems Engineer</h4>
+                    </div>
+                  </div>
+                </div>
+                <div class="card-body text-muted">
+                  <h4 class="card-title">Card Title</h4>
+                  <p class="card-text">
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ab
+                    facilis delectus animi eius maiores, hic cum. Fuga commodi
+                    voluptates et eos debitis veritatis aperiam, quidem quis
+                    architecto consequatur adipisci harum consectetur fugiat
+                    sapiente inventore provident dicta quod omnis facere
+                    voluptas!
+                  </p>
+                </div>
+                <div class="card-footer">
+                  <p class="text-muted m-auto">
+                    Oct 2014 - Dec 2018 | Salt Lake City, UT, USA
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="project-section" class="py-4 bg-light text-center bg-light">
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <h1 class="text-primary pb-3">
+              Projects
+            </h1>
+            <p class="lead mb-5 text-primary bold">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias
+              laborum numquam aperiam dolores a porro!
+            </p>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-4 col-md-6">
+            <div class="card mb-3">
+              <img
+                class="card-img-top img-fluid"
+                src="https://source.unsplash.com/random/300x200"
+                alt=""
+              />
+              <div class="card-body">
+                <h4 class="card-title">Card title</h4>
+                <p class="card-text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. In,
+                  ipsam vel iure fugiat dolorem labore? Dolorem maxime minus id
+                  aliquid? Voluptatem maxime eius necessitatibus quod culpa ex,
+                  facere numquam aperiam.
+                </p>
+              </div>
+              <div class="card-footer">
+                <div>
+                  <!-- btn-circle is self-styled -->
+                  <a
+                    href=""
+                    class="btn btn-primary btn-circle mr-3"
+                    data-toggle="tooltip"
+                    data-placement="top"
+                    title="View Online"
+                  >
+                    <i class="fas fa-external-link-alt"></i>
+                  </a>
+                  <a
+                    href=""
+                    class="btn btn-primary btn-circle"
+                    data-toggle="tooltip"
+                    data-placement="top"
+                    title="View Source"
+                  >
+                    <i class="fab fa-github"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <div class="card mb-3">
+              <img
+                class="card-img-top img-fluid"
+                src="https://source.unsplash.com/random/300x201"
+                alt=""
+              />
+              <div class="card-body">
+                <h4 class="card-title">Card title</h4>
+                <p class="card-text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. In,
+                  ipsam vel iure fugiat dolorem labore? Dolorem maxime minus id
+                  aliquid? Voluptatem maxime eius necessitatibus quod culpa ex,
+                  facere numquam aperiam.
+                </p>
+              </div>
+              <div class="card-footer">
+                <div>
+                  <!-- btn-circle is self-styled -->
+                  <a
+                    href=""
+                    class="btn btn-primary btn-circle mr-3"
+                    data-toggle="tooltip"
+                    data-placement="top"
+                    title="View Online"
+                  >
+                    <i class="fas fa-external-link-alt"></i>
+                  </a>
+                  <a
+                    href=""
+                    class="btn btn-primary btn-circle"
+                    data-toggle="tooltip"
+                    data-placement="top"
+                    title="View Source"
+                  >
+                    <i class="fab fa-github"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <div class="card mb-3">
+              <img
+                class="card-img-top img-fluid"
+                src="https://source.unsplash.com/random/300x202"
+                alt=""
+              />
+              <div class="card-body">
+                <h4 class="card-title">Card title</h4>
+                <p class="card-text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. In,
+                  ipsam vel iure fugiat dolorem labore? Dolorem maxime minus id
+                  aliquid? Voluptatem maxime eius necessitatibus quod culpa ex,
+                  facere numquam aperiam.
+                </p>
+              </div>
+              <div class="card-footer">
+                <div>
+                  <!-- btn-circle is self-styled -->
+                  <a
+                    href=""
+                    class="btn btn-primary btn-circle mr-3"
+                    data-toggle="tooltip"
+                    data-placement="top"
+                    title="View Online"
+                  >
+                    <i class="fas fa-external-link-alt"></i>
+                  </a>
+                  <a
+                    href=""
+                    class="btn btn-primary btn-circle"
+                    data-toggle="tooltip"
+                    data-placement="top"
+                    title="View Source"
+                  >
+                    <i class="fab fa-github"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="education-section" class="py-4">
+      <div class="container">
+        <div class="row mb-4">
+          <div class="col">
+            <h1 class="text-center text-primary">Education</h1>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-6">
+            <div class="card border-primary text-muted mb-3">
+              <div class="card-body">
+                <h3 class="text-primary">University of Texas at Dallas</h3>
+                <p>Richardson, TX, USA</p>
+                <h5>Master of Science in Electrical Engineering</h5>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="card border-primary text-muted mb-3">
+              <div class="card-body">
+                <h3 class="text-primary">Shanxi University</h3>
+                <p>Taiyuan, Shanxi, China</p>
+                <h5>Bachelor of Science in Electrical Engineering</h5>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact-section" class="bg-primary p-5 text-center text-white">
+      <div class="container">
+        <div class="row mb-3">
+          <div class="col">
+            <h3>THANKS! Want to chat about something?</h3>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-4 m-auto">
+            <h5><i class="fas fa-envelope fa-lg mr-3"></i>znancytian@gmail.com</h5>
+          </div>
+        </div>
+        <div class="row">
+          <a href="https://www.linkedin.com/in/zhongnan-joanna-tian-ab566390/" class="col-md-6 m-auto text-white">
+            <h5><i class="fab fa-linkedin fa-lg mr-3"></i></i>linkedin.com/zhongnan-joanna-tian</h5>
+          </a>
+        </div>        
+        <div class="row">
+          <a href="https://github.com/Zhongnan-Tian" class="col-md-6 m-auto text-white">
+            <h5><i class="fab fa-github fa-lg mr-3"></i>github.com/Zhongnan-Tian</h5>
+          </a>
+        </div>     
+      </div>
+    </section>
+
+    <footer id="main-footer" class="bg-primary text-center text-white">
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <p>
+              Copyright &copy;
+              <span id="year"></span>
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.min.js"
+      integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"
+      integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"
+      integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
+      crossorigin="anonymous"
+    ></script>
+
+    <script>
+      // Get the current year for the copyright
+      $('#year').text('Zhongnan (Joanna) Tian');
+
+      //scrolling
+      $('body').scrollspy({ target: '#main-nav' });
+      // Add smooth scrolling
+      $('#main-nav a').on('click', function(e) {
+        if (this.hash !== '') {
+          e.preventDefault();
+
+          // Store hash
+          const hash = this.hash;
+
+          // Animate smooth scroll
+          $('html, body').animate(
+            {
+              scrollTop: $(hash).offset().top
+            },
+            900,
+            function() {
+              // Add hash to URL after scroll
+              window.location.hash = hash;
+            }
+          );
+        }
+      });
+
+      $('[data-toggle="tooltip"]').tooltip();
+    </script>
+  </body>
+</html>
