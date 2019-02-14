@@ -75,6 +75,9 @@ body {
   background: #3292a6;
   color: #fff; }
 
+.card-shadow {
+  box-shadow: 4px 6px 8px #e6e6e6; }
+
 @media (max-width: 767px) {
   #showcase {
     min-height: 350px; }
