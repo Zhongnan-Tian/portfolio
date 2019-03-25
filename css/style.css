@@ -30,8 +30,10 @@ body {
   height: 190px; }
 
 #about-section #about-img1 {
-  width: 300px;
-  height: 300px; }
+  height: auto;
+  width: auto;
+  max-width: 300px;
+  max-height: 300px; }
 
 #skill-content img {
   height: auto;
@@ -45,8 +47,7 @@ body {
   background-attachment: fixed;
   background-repeat: no-repeat;
   /* background-position: 0 -300px; */
-  min-height: 500px;
-  text-align: center;
+  min-height: 980px;
   color: #fff; }
   #experience-section .dark-overlay {
     position: absolute;
@@ -60,8 +61,14 @@ body {
     width: auto;
     max-width: 100px;
     max-height: 100px; }
-  #experience-section .card-header {
+  #experience-section #infosys-color .card-header {
     color: #3781c2; }
+  #experience-section #infosys-color .fas {
+    color: #3781c2; }
+  #experience-section #gs-color .card-header {
+    color: #64a9f1; }
+  #experience-section #gs-color .fas {
+    color: #64a9f1; }
 
 .btn-circle {
   width: 50px;
@@ -70,10 +77,6 @@ body {
   font-size: 18px;
   line-height: 1.33;
   border-radius: 25px; }
-
-#project-section .card-body:hover {
-  background: #3292a6;
-  color: #fff; }
 
 .card-shadow {
   box-shadow: 4px 6px 8px #e6e6e6; }
@@ -90,4 +93,10 @@ body {
     height: 130px; }
 
   #experience-section {
-    min-height: 600px; } }
+    min-height: 1100px; } }
+@media (max-width: 413px) {
+  #experience-section {
+    min-height: 1400px; } }
+@media (max-width: 319px) {
+  #experience-section {
+    min-height: 1650px; } }
