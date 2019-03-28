@@ -47,7 +47,7 @@ body {
   background-attachment: fixed;
   background-repeat: no-repeat;
   /* background-position: 0 -300px; */
-  min-height: 980px;
+  min-height: 1000px;
   color: #fff; }
   #experience-section .dark-overlay {
     position: absolute;
